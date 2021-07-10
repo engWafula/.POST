@@ -1,0 +1,83 @@
+.feed{
+    align-items: center;
+    margin:  0   20px;
+    border-radius: 25px;
+  display: flex;
+  padding: 10px;
+  color: gray;
+  padding-left: 15px; 
+    flex-direction: column; 
+    flex: 1;
+    margin-top: 10px;
+}
+.feed_container{
+    align-items: center;
+    /* display: grid; */
+    /* place-content: center; */
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.feed_input{
+    border:1px solid lightgray;
+    border-radius: 30px;
+    padding: 0px;
+    color:gray;
+    padding-left: 15px;
+    /* align-items: center; */
+    /* display: grid; */
+    border-radius: 25px;
+    display: flex;
+    padding: 10px;
+    color: gray;
+    padding-left: 15px;
+
+}
+.feed_input >form{
+    display:  flex;
+    width: 100%;
+}
+.input{
+    outline: none;
+    border:none;
+     /* flex:1; */
+    margin-left: 10 px;
+    outline-width: 0;
+    font-weight: 600; 
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 600;
+
+} 
+.feedButton{
+    display: none;
+}
+.inputOptions{
+    display: flex;
+    justify-content: space-evenly;
+}
+.postPic{
+display: flex;
+flex-direction: column;
+ flex:0.3; 
+/* position:absolute; */
+}
+.postPic >img{
+    object-fit: contain;
+    height: 35px;
+    
+
+}
+.postPic > p{
+    color:red;
+    align-items: center;
+    font-size: small;
+
+}
+.postPic:hover{
+    transition: 150;
+   
+    cursor: pointer;
+}
