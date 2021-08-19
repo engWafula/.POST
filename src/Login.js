@@ -58,9 +58,7 @@ function Login() {
     
     return (
         <div className="login">
-            <img
-            src="logo.jpg" alt='post'
-            />
+              <h1>signIn</h1>
              {signIn? <Account/>
                 :(
                   <>
@@ -98,7 +96,7 @@ function Login() {
             <p>Not a Member?{" "}<span className='Register' onClick={()=>setsignIn(true)}>Create Account</span></p>
             <p>Sign In with  <span onClick={()=>handleClick(googleProvider)}
             className='socialMedia'
-            >Google</span> or <span onClick={()=>handleClick(githubProvider)} className='socialMedia'>Github</span></p>
+            >Google</span></p>
             </> )}
             
         

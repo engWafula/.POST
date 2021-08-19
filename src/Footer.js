@@ -8,12 +8,12 @@ function Footer() {
       <Typography>
         Copyright &copy; 2021 All rights reserved  by
       </Typography>
-      <Typography>Wafula Allan Isaac </Typography>
+      <Typography>stratcom </Typography>
       <Typography>
-          Contact:+256708832767
+        
           </Typography> 
           <Typography>
-              Email Adress:wafulaallan5@gmail.com
+              Email:bamwinesamson64@gmail.com
               </Typography>
     </div>
   );

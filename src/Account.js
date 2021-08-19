@@ -79,7 +79,7 @@ function Account() {
                 placeholder='Password'/>
 
                 <button 
-                type="submit"  onClick={register} className="btn btn-primary">Sign Up<button>yy</button></button>
+                type="submit"  onClick={register} className="btn btn-primary">Sign Up</button>
 
             </form>
             

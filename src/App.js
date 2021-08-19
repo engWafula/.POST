@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import './App.css';
 import Header  from  "./Header"
- import SideBar from "./SideBar"
+import SideBar from "./SideBar"
+import Home    from "./Home"
 import Feed from  "./Feed"
 import { useDispatch, useSelector } from 'react-redux';
 import { login, logout, selectUser } from  './features/counter/userSlice';
@@ -44,7 +45,7 @@ function App() {
      {/* <SideBar/>   */}
      
      <Header/>
-     <Feed/>
+     <Home/>
      
      
  </div>)}
